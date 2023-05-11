@@ -1,0 +1,17 @@
+.img-fluid {
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transfrom: translate(-11px, 0);
+    }
+
+    50% {
+        transform: translate(0, -11px);
+    }
+
+    100% {
+        transform: translate(-11px, 0);
+    }
+}
